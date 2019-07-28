@@ -1,8 +1,8 @@
-# zodiac
-Zodiac signs — online counter (Astronomical online tool)
+# Sinus
+Sinus — draw a sinus wave
 
-* GIT repository: https://github.com/sass-basis/basis
-* Website: https://outsider.wtf/zodiac
+* GIT repository: https://github.com/The-El0/sinus
+* Website: https://outsider.wtf/sinus
 
 
 
@@ -11,16 +11,14 @@ Zodiac signs — online counter (Astronomical online tool)
 
 ### Download from GitHub
 ```
-$ git clone https://github.com/The-El0/zodiac.git
-$ cd Documents/the-el0/zodiac
+$ git clone https://github.com/The-El0/sinus.git
+$ cd Documents/GitHub/sinus
 $ npm install
 ```
 
 ### Install local server
-$ cd Documents/the-el0/zodiac
+$ cd Documents/GitHub/sinus
 $ npm i -g serve
-
-
 
 
 ### Run local server (http://localhost:5000)
@@ -29,14 +27,10 @@ $ serve
 ```
 
 
-
-
 ### Build, watch files and start up local server
 ```
 $ npm run sass
 ```
-
-
 
 
 ### Build only
