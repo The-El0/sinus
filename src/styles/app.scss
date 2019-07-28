@@ -2,8 +2,10 @@
 //  Foundation
 //
 @import "../../node_modules/normalize.css/normalize";
+@import "core/variables";
+
 
 
 * {
-  color: red;
+  color: $red;
 }
