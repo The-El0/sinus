@@ -1,0 +1,30 @@
+# Build
+build
+#aot
+#dist
+#.awcache
+
+
+# Logs
+#logs
+#*.log
+
+
+# Modules
+node_modules
+
+
+# Test
+#coverage
+#.out-e2e
+
+
+# Environment
+#.env*
+
+
+# OS
+.directory
+.nosync
+.DS_Store
+.icloud
