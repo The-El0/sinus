@@ -1,29 +1,38 @@
-$c-circle--size: 30px;
+$c-circle--width: 20;
+$c-circle--border-width: 4;
 
 
 .circle {
+  &__parent {
+    position: relative;
+  }
+
+
   box-sizing: border-box;
 
   display: flex;
   justify-content: center;
 
-  width:  $PI * $unit;
-  height: $PI * $unit;
+  width: $c-circle--width * $unit;
+  height: $c-circle--width * $unit;
 
-  background: $yellow;
-  border: $c-circle--size solid rgba($black, .5);
+  background: $green;
+  border: ($c-circle--border-width * $unit) solid rgba($black, .5);
   border-radius: 50%;
+}
 
-  &:after {
-    content: "";
-    position: relative;
-    top: -$c-circle--size;
 
-    display: block;
-    width:  $c-circle--size;
-    height: $c-circle--size;
 
-    background: $white;
-    border-radius: 50%;
-  }
+.dot {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: ($c-circle--width / 2) - ($c-circle--border-width / 2)  * $unit;
+
+  display: block;
+  width:  $c-circle--border-width * $unit;
+  height: $c-circle--border-width * $unit;
+
+  background: $white;
+  border-radius: 50%;
 }
