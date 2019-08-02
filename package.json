@@ -14,7 +14,7 @@
   },
   "scripts": {
     "serve": "live-server",
-    "sass":  "node-sass --watch src/styles -o build --output-style compressed -q",
+    "sass": "node-sass --watch src/styles -o build --output-style compressed -q",
     "build": "node-sass --include-path scss src/styles/app.scss build/app.css",
     "start": "concurrently  \" npm run sass \" \" npm run serve  \" "
   },

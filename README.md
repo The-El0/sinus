@@ -16,27 +16,19 @@ $ cd Documents/GitHub/sinus
 $ npm install
 ```
 
-### Install local server
-$ cd Documents/GitHub/sinus
-$ npm i -g serve
 
-
-### Run local server (http://localhost:5000)
-```
-$ serve
-```
-
-
-### Build, watch files and start up local server
-```
-$ npm run sass
-```
-
-
-### Build only
+### Build SASS (run first time only)
 ```
 $ npm run build
 ```
+
+
+### Start local server [live reload HTML, SASS]  (http://127.0.0.1:8080/)
+```
+$ npm run start
+```
+
+
 
 
 
