@@ -24,7 +24,6 @@ $c-circle--border-width: 4;
 
 
 .dot {
-  content: "";
   position: absolute;
   top: 0;
   left: ($c-circle--width / 2) - ($c-circle--border-width / 2)  * $unit;
