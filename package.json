@@ -24,6 +24,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.1"
+    "concurrently": "^4.1.1",
+    "postcss": "^7.0.17"
   }
 }
