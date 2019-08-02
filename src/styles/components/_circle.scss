@@ -1,3 +1,6 @@
+$c-circle--size: 30px;
+
+
 .circle {
   box-sizing: border-box;
 
@@ -8,17 +11,17 @@
   height: $PI * $unit;
 
   background: $yellow;
-  border: 30px solid rgba($black, .5);
+  border: $c-circle--size solid rgba($black, .5);
   border-radius: 50%;
 
   &:after {
     content: "";
     position: relative;
-    top: -30px;
+    top: -$c-circle--size;
 
     display: block;
-    width:  30px;
-    height: 30px;
+    width:  $c-circle--size;
+    height: $c-circle--size;
 
     background: $white;
     border-radius: 50%;
